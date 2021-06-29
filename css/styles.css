@@ -15,7 +15,7 @@ body {
 
 /* 2436x1125px at 458ppi */
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-  section{
+  .about, .features, .meetingAll, .trustedBy{
     padding-top: 80px;
   }
 }
@@ -117,6 +117,16 @@ body {
   #title {
     justify-content: center;
   }
+  .about, .features, .meetingAll, .trustedBy{
+    padding-top: 80px;
+  }
+  .about{
+    padding-left: 5% !important;
+  padding-right: 5% !important;
+  padding-top:140px;
+  padding-bottom: 140px;
+
+  }
 }
 
 /* @media only screen and (min-width: 1201px) {
@@ -179,7 +189,10 @@ h1 {
 
 .aboutUs {
   background-color: #F6F6F6;
-  padding: 5%!important;
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  padding-top:140px;
+  padding-bottom: 140px;
   margin: auto;
   width: 100%;
 }
@@ -258,15 +271,23 @@ h1 {
 }
 /* LARGE SCREENS */
 @media only screen and (min-width: 1832px) {
-  section{
-    padding-top: 80px;
-  }
+  
   .iphoneFeaturesPic {
     padding: 0 10% 0 !important;
   }
 
   .backedUpP, .locationP {
     text-align: right;
+  }
+  .features, .meetingAll, .trustedBy{
+    padding-top: 80px;
+  }
+  .aboutUs{
+    padding-left: 5% !important;
+  padding-right: 5% !important;
+  padding-top:140px;
+  padding-bottom: 140px;
+
   }
 }
 
@@ -282,6 +303,20 @@ h1 {
   }
   .iphoneQuadRow, .aboutUs, #carouselExampleControls{
     padding:0 10%;
+  }
+  
+  .features, .meetingAll, .trustedBy{
+    padding-top: 80px;
+  }
+  .features{
+    padding-top: 120px;;
+  }
+  .aboutUs{
+    padding-left: 5% !important;
+  padding-right: 5% !important;
+  padding-top:140px;
+  padding-bottom: 140px;
+
   }
 
   .backedUpP, .locationP {
@@ -410,9 +445,7 @@ h1 {
 }
 
 @media only screen and (max-width: 767px) {
-  section{
-    padding-top: 80px;
-  }
+  
   .footerGrey {
     text-align: center;
   }
@@ -452,15 +485,23 @@ h1 {
   .backedUpTitle, .locationTitle {
     justify-content: center;
   }
+  .features, .meetingAll, .trustedBy{
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
 }
 /* MEDIUM SCREEN */
 @media only screen and (max-width: 1419px) {
-  section{
+  /* section{
     padding-top: 80px;
+  } */
+  .features, .meetingAll, .trustedBy{
+    padding-top: 140px;
   }
   .imageCenter {
     margin: 2rem 0 2rem;
   }
+  
 }
 
 .imageCenter {
@@ -485,6 +526,7 @@ i {
   .privacyP {
     justify-content: center;
   }
+  
 
   .floatedIMG {
     float: none;
@@ -504,7 +546,7 @@ i {
 
   .blueBackground {
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 150px;
   }
 
   .bothButtons {
@@ -568,6 +610,10 @@ i {
   .trustedByP {
     padding-bottom: 50px;
   }
+  .features, .meetingAll, .trustedBy{
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
 }
 
 
@@ -583,4 +629,8 @@ i {
     max-width: 100%!important;
   }
 
+}
+.features, .meetingAll, .trustedBy{
+  padding-top: 140px;
+  padding-bottom: 140px;
 }
